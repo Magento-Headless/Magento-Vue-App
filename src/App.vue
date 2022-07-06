@@ -1,10 +1,21 @@
 <template>
   <nav>
+    <m-button>123</m-button>
     <router-link to="/">Home</router-link> |
     <router-link to="/about">About</router-link>
   </nav>
   <router-view/>
 </template>
+
+<script>
+import { Button } from 'antd-mobile-vue-next'
+
+export default {
+  components: {
+    [Button.name]: Button,
+  },
+}
+</script>
 
 <style lang="less">
 #app {
