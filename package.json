@@ -11,12 +11,16 @@
     "pre-commit": "lint-staged"
   },
   "dependencies": {
+    "ant-design-vue": "^2.2.1",
     "antd-mobile-vue-next": "^0.0.1-63",
     "core-js": "^3.8.3",
     "register-service-worker": "^1.7.2",
     "vue": "^3.2.13",
     "vue-router": "^4.0.3",
     "vuex": "^4.0.0"
+  },
+  "peerDependencies": {
+    "postcss": "^8.0.0"
   },
   "devDependencies": {
     "@babel/core": "^7.12.16",
@@ -35,6 +39,7 @@
     "eslint-plugin-vuejs-accessibility": "^1.1.0",
     "less": "^4.0.0",
     "less-loader": "^8.0.0",
-    "lint-staged": "^11.1.2"
+    "lint-staged": "^11.1.2",
+    "postcss-px-to-viewport": "^1.1.1"
   }
 }

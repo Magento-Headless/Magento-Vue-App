@@ -1,9 +1,9 @@
 <template>
-  <nav>
-    <m-button>123</m-button>
+  <div>
+    <Button type="primary">Antd</Button>
     <router-link to="/">Home</router-link> |
     <router-link to="/about">About</router-link>
-  </nav>
+  </div>
   <router-view/>
 </template>
 
@@ -12,7 +12,7 @@ import { Button } from 'antd-mobile-vue-next'
 
 export default {
   components: {
-    [Button.name]: Button,
+    Button,
   },
 }
 </script>
